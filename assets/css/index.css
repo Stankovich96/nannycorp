@@ -24,6 +24,7 @@ body {
   .carousel {
     margin-bottom: 4rem;
     background-image:url(../img/IMG-20191120-WA0006.jpg) ;
+    background-repeat: repeat;
     
   }
   /* Since positioning the image, we need to help out the caption */
@@ -72,7 +73,6 @@ body {
   .howitworks{
     background-color:#28A745;
     text-align: center;
-    height:20rem;
     color: black;
     
   }
@@ -85,17 +85,15 @@ body {
   }
   /* Testimonials
   -------------------------------------------------- */
-  .Testimonialsarea{
-    height:20rem;
+  
 
-  }
+  
   .Testimonialstext h3{
       text-align: center;   
   }
   #cardarea{
-      margin-top: 2rem;
-      margin-left: 9rem;
- }
+    margin-top: 100px;
+  }
 
 
   /* RESPONSIVE CSS
@@ -117,7 +115,6 @@ body {
 }
 .footercontainer{
     background-color :#28A745;
-    height:20rem;  
     margin-top: 10rem;
 }
 #footerlogo{
@@ -137,6 +134,6 @@ body {
 .footerdecor{
   text-decoration: none;
   color: black;
-  padding: 30px;
+  padding: 20px;
 
 }
