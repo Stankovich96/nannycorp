@@ -10,33 +10,32 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/animate.css">
         <link rel="stylesheet" href="assets/css/index.css">
     </head>
     <body>
-        <header>
-            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-success">
+        <header >
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top navigationbar">
               <a class="navbar-brand" href="index.html">NannyCorp</a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarCollapse">
+              <div class="collapse navbar-collapse " id="navbarCollapse">
                  
-                <ul class="navbar-nav  mr-auto" >
-                  <li class="nav-item active navbar-right">
+                <ul class="navbar-nav mr-auto ">
+                  <li class="nav-item active navright" >
                     <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                   </li>
-                  <li class="nav-item active ">
-                    <a class="nav-link" href="index.html">About</a>
+                  <li class="nav-item active" >
+                    <a class="nav-link" href="about.html">About</a>
                   </li>
-                  <li class="nav-item active ">
-                    <a class="nav-link" href="index.html">Services</a>
+                  <li class="nav-item active" >
+                    <a class="nav-link" href="services.html">Services</a>
                   </li>
-                  <li class="nav-item active ">
-                    <a class="nav-link" href="index.html">FAQ</a>
+                  <li class="nav-item active" >
+                    <a class="nav-link" href="contact.html">Contact Us</a>
                   </li>
                 </ul>              
-                <button class="btn btn-info my-2 my-sm-0 " type="submit">Sign in</button>
+                <a class="btn btcolor my-2 my-sm-0" href="login.html" role="button">Sign In</a>
               </div>
               
             </nav>
@@ -50,9 +49,9 @@
                 <div class="carousel-item active">
                  
                      <div class="carousel-caption text-left">
-                      <h1>Best Baby Care</h1>
-                      <p>We are dedicated to make sure your baby worries are taken care of.</p>
-                      <p><a class="btn btn-lg btn-info" href="register.html" role="button">Get Started</a></p>
+                      <h1 id="caro">Excellent Nanny service</h1>
+                      <p id="caro"> At your finger tips.</p>
+                      <p><a class="btn btn-lg btcolor" href="register.html" role="button">Get Started</a></p>
                      </div>
                 
                  </div>
@@ -74,44 +73,48 @@
               <div class="row">
                     
                 <div class="col-lg-4">
-                <img class="bd-placeholder-img " width="70" height="70" src="assets\img\baby-trolley.svg"  role="img" aria-label="Placeholder: 140x140">
+                <img class="bd-placeholder-img " width="70" height="70" src="assets/img/Nannypink.svg"  role="img" aria-label="Placeholder: 140x140">
                   <h4>Baby Care</h4>
-                  <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-                  <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                  <p>Baby care is our priority. Under this category, we provide you with a nanny whose main aim is to watch over and 
+                    and take care of your child in your absence. These nannies have been evaluated mentally, physically and psychologically. </p>
+                  <p><a class="btn btcolor my-2 my-sm-0" href="services.html" role="button">View details &raquo;</a></p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
-                    <img class="bd-placeholder-img " width="70" height="70" src="assets/img/warehouse-storage-3.svg"  role="img" aria-label="Placeholder: 140x140">
+                    <img class="bd-placeholder-img " width="70" height="70" src="assets/img/Homepink.svg"  role="img" aria-label="Placeholder: 140x140">
                   <h4>Home Services</h4>
-                  <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-                  <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                  <p>As a mother or guardian, we understand that you may need extra services from your Nanny. This is why we have the home services category. 
+                    These categories of Nanny will help you with manual chores at home, like cleaning, cooking or helping with your pile...</p>
+                  <p><a class="btn btcolor my-2 my-sm-0" href="services.html" role="button">View details &raquo;</a></p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
-                    <img class="bd-placeholder-img " width="70" height="70" src="assets/img/human-resources-search-employees.svg"  role="img" aria-label="Placeholder: 140x140">
+                    <img class="bd-placeholder-img" width="70" height="70" src="assets/img/Crechepink.svg"  role="img" aria-label="Placeholder: 140x140">
                   <h4>Creche Nanny</h4>
-                  <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-                  <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                  <p>As a school owner, it may be difficult to get a smart, learned and dedicated nanny to look over your creche babies.
+                    We understand this, that is why we have Nannies specifically for schools.These nannies are well trained for school activities and the 
+                    best part is...</p>
+                  <p><a class="btn btcolor my-2 my-sm-0" href="services.html" role="button">View details &raquo;</a></p>
                 </div><!-- /.col-lg-4 -->
               </div><!-- /.row -->
             </div>
 
               <div class="howitworks">
-                   
-                  <h4 class="howitworkstexts">How it Works</h4>   
-                    
+                
+                  <h4 id="howtext">How it Works </h4>   
+                
                         <div class="row">
                            
                             <div class="col-sm-4" id="howitworksarea">
-                            <img class="bd-placeholder-img " width="30" height="30" src="assets/img/content-pen-3.svg"  role="img" aria-label="Placeholder: 40x40">
+                            <img class="bd-placeholder-img " width="30" height="30" src="assets/img/content-pen-white.svg"  role="img" aria-label="Placeholder: 40x40">
                               <h5>1. Register</h5>
                               
                             </div><!-- /.col-sm-4 -->
                             <div class="col-sm-4" id="howitworksarea">
-                                <img class="bd-placeholder-img " width="30" height="30" src="assets/img/002-user.svg"  role="img" aria-label="Placeholder: 40x40">
+                                <img class="bd-placeholder-img " width="30" height="30" src="assets/img/profilewhite.svg"  role="img" aria-label="Placeholder: 40x40">
                               <h5>2. Complete Profile</h5>
                               
                             </div><!-- /.col-sm-4 -->
                             <div class="col-sm-4" id="howitworksarea">
-                                <img class="bd-placeholder-img " width="30" height="30" src="assets/img/send-email-2.svg"  role="img" aria-label="Placeholder: 40x40">
+                                <img class="bd-placeholder-img " width="30" height="30" src="assets/img/Sendwhite.svg"  role="img" aria-label="Placeholder: 40x40">
                               <h5>3. Request for Nanny</h5>
                               
                             </div><!-- /.col-sm-4 -->
@@ -121,7 +124,7 @@
 
               <div class="Testimonialsarea">
                     <div class="Testimonialstext">
-                            <h3>Testimonials</h3>       
+                            <h3 class="tests">What Satisfied Mothers Say About Us</h3>       
                     </div>
                      <div class="row">
                    
@@ -129,7 +132,7 @@
                       <div class="col-lg-2" id="area"></div>
                             <div class="col-lg-4" id="area">
                     <div class="card" >
-                            <img src="assets/img/IMG-20191120-WA0007 - Copy.jpg" class="card-img-top" alt="..." >
+                            <img src="assets/img/MOM.jpg" class="card-img-top" alt="..." >
                             <div class="card-body">
                               <h5 class="card-title">Charlize theron</h5>
                               <p class="card-text"> They really defined security and tracking as i could see my child at every point in time.</p>
@@ -139,7 +142,7 @@
                             </div>
                             <div class="col-lg-4" id="area">
                           <div class="card" >
-                                <img src="assets/img/IMG-20191120-WA0007 - Copy.jpg" class="card-img-top" alt="..." >
+                                <img src="assets/img/mother-son-friend-magazine-921456-gallery.jpg" class="card-img-top" alt="..." >
                                 <div class="card-body">
                                   <h5 class="card-title">Olusegun Obasanjo</h5>
                                   <p class="card-text">They really defined security and tracking as i could see my child at every point in time.</p>
@@ -177,22 +180,23 @@
 
                         <div class="col-lg-4">
                             <p></p>
-                            <p><a href="index.html" class="footerdecor">Home</a> <a href="index.html" class="footerdecor">About</a> <a href="index.html" class="footerdecor">Sign in</a> </p>
-                            <p><a href="index.html" class="footerdecor">Services</a> <a href="index.html" class="footerdecor">FAQ</a> <a href="index.html" class="footerdecor">Register</a> </p>
+                            <p><a href="index.html" class="footerdecor">Home</a> <a href="about.html" class="footerdecor">  About</a> <a href="login.html" class="footerdecor"> Sign in</a> </p>
                             <p><a href="index.html" class="footerdecor">Terms</a> <a href="index.html" class="footerdecor">Privacy</a> <a href="index.html" class="footerdecor">Legal </a> </p>
+                            <p><a href="contact.html" class="footerdecor">Contact</a> <a href="services.html" class="footerdecor">Services</a> <a href="register.html" class="footerdecor">Register</a> </p>
+                            
                              
                            
                           </div>
                           
                         <div class="col-lg-4">
                           <p></p>
-                            <h4 class="text-center">CONTACT US</h4>
+                            <h4 class="text-center">Send A Message</h4>
                           <div class="row">
                               
                             <div class="col-sm-10 form-group">
                               <input class="form-control" id="email" name="email" placeholder="Email" type="email" required><br>
                               <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="3"></textarea><br>
-                              <button class="btn btn-info pull-right" type="submit">Send</button>
+                              <button class="btn btcolor pull-right" type="submit">Send</button>
                             </div>
                       
 

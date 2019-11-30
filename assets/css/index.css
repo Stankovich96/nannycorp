@@ -5,25 +5,37 @@
 body {
    
     color:black;
- 
+    width: 1340px;
   }
  
   /* CUSTOMIZE THE HEADER
   -------------------------------------------------- */
-  
-  .navbar-right{
-    margin-left: 780px;
+  .navbar{
+    background-color: #00AEFF;
+  }
+  .btcolor{
+    background-color:  #CC338B;
+    color: white;
+  }
+  .navigationbar{
+    width: 1348px;
+    background-color: #00AEFF;
+  }
+  .navright{
+    margin-left: 750px;
   }
   .nav-item{
-      padding: 9px;
+      padding: 5px;
+     
   }
+  
   /* CUSTOMIZE THE CAROUSEL
   -------------------------------------------------- */
   /*<img class="bd-placeholder-img" width="50%" height="50%" src="assets/img/IMG-20191120-WA0007.jpg" />*/
   /* Carousel base class */
   .carousel {
     margin-bottom: 4rem;
-    background-image:url(../img/IMG-20191120-WA0006.jpg) ;
+    background-image:url(../img/mama.jpg) ;
     background-repeat: repeat;
     
   }
@@ -41,11 +53,8 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    min-width: 100%;
     height: 40rem;
   }
-
-  
   
   /* MARKETING CONTENT
   -------------------------------------------------- */
@@ -71,22 +80,21 @@ body {
   /* HOWITWORKS
   -------------------------------------------------- */
   .howitworks{
-    background-color:#28A745;
+    background-color:#00AEFF;
     text-align: center;
-    color: black;
+    color: white;
     
   }
-  h4.howitworkstexts{
-    color: black;
-    margin-top: 20px;
+  #howtext{
+    color: white;
+    margin-top: 50px;
   }
   #howitworksarea{
     margin-top: 90px;
+    margin-bottom: 30px;
   }
   /* Testimonials
   -------------------------------------------------- */
-  
-
   
   .Testimonialstext h3{
       text-align: center;   
@@ -94,7 +102,9 @@ body {
   #cardarea{
     margin-top: 100px;
   }
-
+.tests{
+  margin-top: 50px;
+}
 
   /* RESPONSIVE CSS
   -------------------------------------------------- */
@@ -114,7 +124,8 @@ body {
 
 }
 .footercontainer{
-    background-color :#28A745;
+    background-color :#00AEFF;
+    color: white;
     margin-top: 10rem;
 }
 #footerlogo{
@@ -131,9 +142,12 @@ body {
 .socials{
  padding: 8px;
 }
+.pull-right{
+  margin-left: 14rem;
+}
 .footerdecor{
   text-decoration: none;
-  color: black;
-  padding: 20px;
+  color: white;
+  padding: 30px;
 
 }
