@@ -59,7 +59,6 @@ app.post("/contactus", (req, res) => {
             //content:'Thanks for reaching out. we will contact you shortly'
            // });
          res.send("Thanks for reaching out. we will contact you shortly"); 
-       
           }
       });
 
