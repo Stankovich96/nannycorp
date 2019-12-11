@@ -1,0 +1,29 @@
+{
+  "name": "nannycorp",
+  "version": "1.0.0",
+  "description": "\"NannyCorp Backend\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stankovich96/nannycorp.git"
+  },
+  "author": "Okike Stanley Uchenna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stankovich96/nannycorp/issues"
+  },
+  "homepage": "https://github.com/Stankovich96/nannycorp#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "express-flash-notification": "^0.5.0",
+    "express-session": "^1.17.0",
+    "mongoose": "^5.8.0",
+    "popups": "^1.1.3"
+  }
+}

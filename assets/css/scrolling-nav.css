@@ -3,15 +3,20 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
-header {
+
+ header {
   padding: 156px 0 100px;
 }
 .navbar{
   background-color: #00AEFF;
 }
 .btcolor{
-  background-color:  #CC338B;
+  background-color:  #00AEFF;
   color: white;
+}
+.btcolors{
+  background-color:white;
+  color:#00AEFF;
 }
 section {
   padding: 150px 0;
@@ -23,6 +28,7 @@ section {
   padding: 5px;
  
 }
+
 .contactdetail{
   margin-top: 50px;
 }
@@ -32,11 +38,12 @@ section {
 
 .footercontainer{
   background-color :#00AEFF;
-  color:white;
+  color: white;
+  margin-top: 2rem;
+  height: 352px;
 }
 #footerlogo{
   text-decoration: none;
-
 }
 .footerform{
   margin-left: 58rem;
@@ -44,6 +51,7 @@ section {
 }
 .footerline{
   text-align:center;
+margin-top: 20px;
 }
 .socials{
 padding: 8px;
@@ -51,6 +59,8 @@ padding: 8px;
 .footerdecor{
 text-decoration: none;
 color: white;
-padding: 30px;
-
+padding: 20px;
+}
+.footertop{
+margin-top: 15px;
 }

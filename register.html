@@ -14,42 +14,29 @@
     </head>
     <body>
         
-        <form action="action_page.php" method="post">
+        <form action="http://localhost:3000/signin" method="post">
             <div class="imgcontainer">
               <img src="./assets/img/001-avatar.svg" alt="Avatar" height="50px" width="50px" class="avatar">
-              <p><a href="index.html">NannyCorp</a></p>
-              <p>Already Signed up?<a href="login.html">Login</a></p>
+              <p>Back to <a href="index.html">Home</a></p>
+              <p>Already Signed up? <a href="login.html"> Log in</a></p>
               
             </div>
            
             <div class="row">
                 <div class="col-lg-4"></div>
                 <div class="col-lg-4">
-                        <button type="button" class="btn btn-primary btn-md">Continue with Google</button>
+                        <button type="button" class="btn btn-info btn-md">Continue with Google</button>
                         <p ><h5 class="or">OR</h5></p>
             <div class="container">
+                <select name="service" class="option" required>
+                    <option value="parent">Parent</option>
+                    <option value="Nanny">Nanny</option>
+                  </select>
+              <input type="text" placeholder="Enter Full Name" name="fullname" required>
+              <input type="text" placeholder="Enter your Email" name="email" required>
+              <input type="text" placeholder="Enter your username" name="username" required>
+              <input type="password" placeholder="Enter Password" name="password" required>
               
-              <input type="text" placeholder="Enter First Name" name="uname" required>
-
-              
-              <input type="text" placeholder="Enter Last Name" name="uname" required>
-
-            
-              <input type="text" placeholder="Enter your Email" name="uname" required>
-
-             
-              <input type="text" placeholder="Enter your Phone Number" name="uname" required>
-
-             
-              <input type="text" placeholder="Enter your Address" name="uname" required>
-
-              
-              <input type="text" placeholder="Enter your username" name="uname" required>
-          
-              <input type="password" placeholder="Enter Password" name="psw" required>
-
-              <input type="password" placeholder="Repeat Password " name="psw" required>
-          
               <button type="submit">Submit</button>
               
             </div>

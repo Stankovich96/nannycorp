@@ -1,0 +1,47 @@
+.navbar{
+    background-color: #00AEFF;
+  }
+  .navright{
+    margin-left: 450px;
+  }
+  .srch{
+    margin-left: 300px;
+  }
+  .avatar{
+    padding: 9px;
+  }
+  .nav-item{
+      padding: 5px; 
+  }
+  /*
+   * Sidebar
+   */
+   ul{
+     position: relative;
+    top: 0;
+    height: calc(93.6vh - 50px);
+    padding-top: 2rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 20px;
+   }
+  #side{
+    background-color: #00AEFF;
+  }
+.link{
+  color: black;
+  padding: 13px;
+  margin-top: 4px;
+}
+#sidesvg{
+margin-left: 18px;
+margin-top: 2px;
+}
+#main{
+  height: 580px;
+  width: 1000px;
+  
+  
+}
