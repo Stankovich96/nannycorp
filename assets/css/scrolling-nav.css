@@ -40,7 +40,7 @@ section {
   background-color :#00AEFF;
   color: white;
   margin-top: 2rem;
-  height: 352px;
+  height:fit-content;
 }
 #footerlogo{
   text-decoration: none;

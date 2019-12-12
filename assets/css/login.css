@@ -36,7 +36,7 @@ form {
   }
   
   .or{
-  margin-left: 200px;
+ text-align: center;
   }
 
   
@@ -48,7 +48,7 @@ form {
   
   /* Avatar image */
   img.avatar {
-    width: 35%;
+    width: 20%;
     border-radius: 50%;
   }
   
@@ -58,7 +58,8 @@ form {
   }
   .option{
     height:50px;
-    width:415px;
+   width:415px;
+   max-width: 100%;
     }
   
   /* The "Forgot password" text */

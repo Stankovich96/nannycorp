@@ -35,6 +35,7 @@ app.post("/login", (req, res) => {
     // console.log(req.body);
     if( req.body.username === user.username && req.body.password === user.password){
         res.send(`Hi ${req.body.username} your ${req.body.subject} form has been completed`);
+        res.redirect('/nannyDashboard')
 
     } else {
         res.send("Thats not the right details dawg");

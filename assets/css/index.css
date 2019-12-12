@@ -89,6 +89,9 @@ body{
     color: white;
     
   }
+  .clickablehow{
+color: white;
+  }
   #howtext{
     color: white;
     margin-top: 2rem;
@@ -124,14 +127,14 @@ body{
     .carousel-caption h1 {
   color: black;
   }
-  
 
 }
+
 .footercontainer{
     background-color :#00AEFF;
     color: white;
     margin-top: 2rem;
-    height: 352px;
+    height:fit-content;
 }
 #footerlogo{
     text-decoration: none;

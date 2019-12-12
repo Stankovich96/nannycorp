@@ -3,17 +3,30 @@ body{
   overflow-x: hidden;
   }
  
-img{
-    border-radius: 50%;
+.container{
+    max-width: 100%;
 }
-
+.conimage{
+   height: 300px;
+   width: 300px;
+   padding: 10px;
+}
+.conimag{
+    height: 300px;
+    width: 300px;
+ }
 .imgcontainer{
     display: block;
     margin-left: auto;
     margin-right: auto;
-
+    border-radius: 50%;
 }
 .team{
+    text-align: center;
+    font-weight: bold;
+    padding: 25px;
+}
+.profile{
     text-align: center;
     font-weight: bold;
 }
