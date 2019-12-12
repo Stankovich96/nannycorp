@@ -27,15 +27,19 @@ const user = {
 
 app.use(bodyParser.json()),
 app.use(bodyParser.urlencoded({extended: true})),
+app.use(express.static(__dirname + "/nannyDashboard.html"));
 //app.use(cookieParser()),
 //app.use(session({secret:'shh'})),
 //app.use(flash(app));
-
+/*app.get('/nannyDashboard', function(req, res){
+res.sendFile(__dirname + "/nannyDashboard.html");
+});
+*/
 app.post("/login", (req, res) => {
     // console.log(req.body);
     if( req.body.username === user.username && req.body.password === user.password){
-        res.send(`Hi ${req.body.username} your ${req.body.subject} form has been completed`);
-        res.redirect('/nannyDashboard')
+        res.send(`Hi ${req.body.username} your ${req.body.password} form has been completed`);
+       // res.redirect('/nannyDashboard')
 
     } else {
         res.send("Thats not the right details dawg");
