@@ -25,11 +25,14 @@ body{
   .navright{
     margin-left: 750px;
   }
+  
   .nav-item{
       padding: 5px;
      
   }
-  
+  ul li a:hover{
+background-color: rgb(72, 197, 255);
+  }
   /* CUSTOMIZE THE CAROUSEL
   -------------------------------------------------- */
   /*<img class="bd-placeholder-img" width="50%" height="50%" src="assets/img/IMG-20191120-WA0007.jpg" />*/
